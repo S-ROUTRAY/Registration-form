@@ -11,7 +11,7 @@ const port = process.env.PORT || 3000;
 const username = process.env.MONGODB_USERNAME;
 const password = process.env.MONGODB_PASSWORD;
 
-mongoose.connect(`mongodb+srv://${username}:${password}@cluster0.b2mpkod.mongodb.net/registrationform`,{
+mongoose.connect(`mongodb+srv://${username}:${password}@cluster0.b2mpkod.mongodb.net/registrationformDB`,{
     serverSelectionTimeoutMS: 5000,
 });
 
